@@ -6,13 +6,13 @@
   }
 
   body {
-    background-color: #1C1A19;
+    background-color: #1c1a19;
     height: 50vh;
   }
 
   .nav_bar {
     display: flex;
-    background-color: #3C3A39;
+    background-color: #3c3a39;
     height: 50px;
   }
 
@@ -52,7 +52,7 @@
   .intro {
     margin-top: 120px;
     margin-bottom: 10px;
-    color: #FF6B00;
+    color: #ff6b00;
     font-family: 'Crete Round', serif;
     font-size: 56px;
     font-weight: 400;
@@ -62,12 +62,12 @@
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 700;
-    color: #FFF5E1;
+    color: #fff5e1;
     margin-bottom: 12px;
   }
 
   .details {
-    color: #FFFFFF;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     max-width: 266px;
     font-size: 16px;
@@ -87,7 +87,7 @@
   }
 
   .social a {
-    color: #DBD8D7;
+    color: #dbd8d7;
   }
 
   .img {
