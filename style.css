@@ -1,111 +1,112 @@
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
 
- 
- /* For mobile phones */
+  body {
+    background-color: #1C1A19;
+    height: 50vh;
+  }
 
- @media only screen and (max-width: 600px) {
-    *{
-      box-sizing: border-box;
-      margin:0;
-    }
+  .nav_bar {
+    display: flex;
+    background-color: #3C3A39;
+    height: 50px;
+  }
 
-    
-      body {
-      background-color:#1C1A19;
-      height: 50vh;
-    }
-    .nav_bar {
-      display: flex;
-      background-color: #3C3A39; 
-      height: 50px; 
-      
-    }
-    .nav_menu {
-      display:flex;
-      justify-content: space-between;
-      width: 100%; 
-      align-items: center;
-    
-    }
-    .nav_menu li {
-      list-style: none;
-    }
-    .name {
-      color:white;
-      font-family: 'Roboto', sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-    }
-    .hamburger{
-      color:white;
-      font-size: 26px;
-      font-weight: 700;
-      margin-right: 40px;
-    }
-    .container{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content:flex-start;
-      margin-left: 5%;
-      
-    }
-    .intro {
-      margin-top: 120px;
-      margin-bottom: 10px;
-      color: #FF6B00;
-      font-family: 'Crete Round', serif;
-      font-size: 56px;
-      font-weight: 400;
-    }
-    .job_description{
-      font-family: 'Roboto', sans-serif;
-      font-size: 24px;
-      font-weight: 700;
-      color:#FFF5E1;
-      margin-bottom: 12px;
-    }
+  .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
 
-    .details{
-      color: #FFFFFF;
-      font-family: 'Poppins', sans-serif;
-      max-width:266px;
-      font-size: 16px;
-      font-weight: 400;
-      font-style: normal;
-      margin-bottom: 12px;
-    }
+  .nav_menu li {
+    list-style: none;
+  }
 
-    .links{
-      display: flex;
-      list-style: none;
-      width: 300px;
-      justify-content: flex-start;
-      gap:20px;
-      padding-left: 5%;
-      margin-left: 5%;
-      
-    }
-    .social a {
-      color: #DBD8D7;
-    }
+  .name {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .hamburger {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 40px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 5%;
+  }
+
+  .intro {
+    margin-top: 120px;
+    margin-bottom: 10px;
+    color: #FF6B00;
+    font-family: 'Crete Round', serif;
+    font-size: 56px;
+    font-weight: 400;
+  }
+
+  .job_description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFF5E1;
+    margin-bottom: 12px;
+  }
+
+  .details {
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    max-width: 266px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 12px;
+  }
+
+  .links {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 5%;
+    margin-left: 5%;
+  }
+
+  .social a {
+    color: #DBD8D7;
+  }
+
+  .img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  a:hover {
+    background-color: #ff6b00;
+  }
+
+  /* This media query makes the illustration disappear so it does not cover the paragraph when screen is smaller */
+  @media only screen and (max-width: 300px) {
     .img {
-      position:absolute;
+      display: none;
+      position: absolute;
       right: 0;
-      top:50%;
-    }
-
-    a:hover{
-      background-color:#FF6B00;
-    }
-/* This media query makes the illustration disappear so it does not cover the paragraph when screen is smaller */
-
-    @media only screen and (max-width: 300px) {
-      .img {
-        display: none;
-        position:absolute;
-        right: 0;
-        top:50%;
-      }
-
+      top: 50%;
     }
   }
+}
