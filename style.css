@@ -1,5 +1,8 @@
 
-    @media only screen and (max-width: 600px) {
+ 
+ /* For mobile phones */
+
+ @media only screen and (max-width: 600px) {
     *{
       box-sizing: border-box;
       margin:0;
@@ -34,7 +37,8 @@
     }
     .hamburger{
       color:white;
-      font-size: 22px;
+      font-size: 26px;
+      font-weight: 700;
       margin-right: 40px;
     }
     .container{
@@ -64,10 +68,10 @@
     .details{
       color: #FFFFFF;
       font-family: 'Poppins', sans-serif;
+      max-width:266px;
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
-      margin-left: 10%;
       margin-bottom: 12px;
     }
 
@@ -90,5 +94,18 @@
       top:50%;
     }
 
+    a:hover{
+      background-color:#FF6B00;
+    }
+/* This media query makes the illustration disappear so it does not cover the paragraph when screen is smaller */
 
+    @media only screen and (max-width: 300px) {
+      .img {
+        display: none;
+        position:absolute;
+        right: 0;
+        top:50%;
+      }
+
+    }
   }
