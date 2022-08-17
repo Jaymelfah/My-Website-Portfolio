@@ -8,6 +8,7 @@
     
       body {
       background-color:#1C1A19;
+      height: 50vh;
     }
     .nav_bar {
       display: flex;
@@ -41,7 +42,6 @@
       flex-direction: column;
       align-items: center;
       justify-content:flex-start;
-      border: 2px solid greenyellow;
       margin-left: 5%;
       
     }
@@ -59,7 +59,6 @@
       font-weight: 700;
       color:#FFF5E1;
       margin-bottom: 12px;
-      border: 2px solid red;
     }
 
     .details{
@@ -68,8 +67,27 @@
       font-size: 16px;
       font-weight: 400;
       font-style: normal;
-      mar
+      margin-left: 10%;
+      margin-bottom: 12px;
+    }
 
+    .links{
+      display: flex;
+      list-style: none;
+      width: 300px;
+      justify-content: flex-start;
+      gap:20px;
+      padding-left: 5%;
+      margin-left: 5%;
+      
+    }
+    .social a {
+      color: #DBD8D7;
+    }
+    .img {
+      position:absolute;
+      right: 0;
+      top:50%;
     }
 
 
