@@ -35,6 +35,10 @@
     font-size: 18px;
     font-weight: 700;
   }
+  #name_link {
+    text-decoration: none;
+    color:#fff;
+  }
 
   .hamburger {
     color: white;
