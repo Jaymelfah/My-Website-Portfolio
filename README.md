@@ -3,7 +3,12 @@
 
 # Portfolio Website Project
 
-### Description of the project.
+### Project Description
+>The Primary purpose of this project is to build the first two sections(Toolbar & Headline section) of the mobile version
+ of my portfolio website.
+
+
+ ### Objectives
 > Build a Toolbar for the project
 > Build a headline section for the project 
 
