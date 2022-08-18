@@ -1,3 +1,4 @@
+/* stylelint-disable CssSyntaxError */
 /* For mobile phones */
 @media only screen and (max-width: 600px) {
   * {
@@ -131,7 +132,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     background-color: #fff;
-
   }
 
   .works_title {
@@ -143,7 +143,7 @@
   }
 
   .name_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -172,7 +172,7 @@
   }
 
   .card1_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-size: 32px;
     font-weight: 400;
     color: #091e42;
@@ -231,11 +231,10 @@
     background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
       url(./Images/Professional\ art\ printing.svg);
     height: 500px;
-
   }
 
   .card2_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -245,7 +244,7 @@
   }
 
   .card2_title2 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -254,14 +253,13 @@
   }
 
   .card2_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons2 {
@@ -281,7 +279,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card2button {
@@ -290,12 +287,11 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* Card 3 */
@@ -315,7 +311,7 @@
   }
 
   .card3_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -325,7 +321,7 @@
   }
 
   .card3_title3 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -334,14 +330,13 @@
   }
 
   .card3_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons3 {
@@ -361,7 +356,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card3button {
@@ -370,12 +364,11 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* Card 4 */
@@ -392,11 +385,10 @@
     background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
       url(./Images/Professional\ art\ printing.svg);
     height: 500px;
-
   }
 
   .card4_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -406,7 +398,7 @@
   }
 
   .card4_title4 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -415,14 +407,13 @@
   }
 
   .card4_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons4 {
@@ -442,7 +433,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card4button {
@@ -451,12 +441,11 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* Card 5 */
@@ -473,11 +462,10 @@
     background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
       url(./Images/Professional\ art\ printing.svg);
     height: 500px;
-
   }
 
   .card5_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -487,7 +475,7 @@
   }
 
   .card5_title5 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -496,14 +484,13 @@
   }
 
   .card5_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons5 {
@@ -523,7 +510,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card5button {
@@ -532,16 +518,14 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* Card 6 */
-
 
   .card6 {
     display: flex;
@@ -556,11 +540,10 @@
     background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
       url(./Images/Professional\ art\ printing.svg);
     height: 500px;
-
   }
 
   .card6_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -570,7 +553,7 @@
   }
 
   .card6_title6 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -579,14 +562,13 @@
   }
 
   .card6_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons6 {
@@ -606,7 +588,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card6button {
@@ -615,12 +596,11 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* Card 7 */
@@ -638,11 +618,10 @@
     background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
       url(./Images/Professional\ art\ printing.svg);
     height: 500px;
-
   }
 
   .card7_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -652,7 +631,7 @@
   }
 
   .card7_title7 {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-style: normal;
     font-size: 42px;
     color: #fff;
@@ -661,14 +640,13 @@
   }
 
   .card7_paragraph {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
     width: 85%;
     color: #fff;
     line-height: 24px;
     margin-bottom: 20px;
-
   }
 
   .buttons7 {
@@ -688,7 +666,6 @@
     height: 40px;
     border: none;
     align-items: center;
-
   }
 
   .card7button {
@@ -697,12 +674,11 @@
     height: 48px;
     background: #ff6b00;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
     padding: 12px;
     border: none;
-
   }
 
   /* About Section */
@@ -726,7 +702,7 @@
   }
 
   .aboutme_title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', serif;
     font-size: 72px;
     color: #ff6b00;
     font-weight: 400;
@@ -734,7 +710,7 @@
   }
 
   .aboutme_para {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: #fff;
     font-weight: 400;
@@ -754,7 +730,7 @@
   #resume_link {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
   }
@@ -788,7 +764,7 @@
   }
 
   .language {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 32px;
     font-weight: 700;
@@ -798,7 +774,7 @@
     list-style: none;
     color: #fff;
     font-size: 22px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -822,7 +798,7 @@
   }
 
   .frameworks {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 32px;
     font-weight: 700;
@@ -832,7 +808,7 @@
     list-style: none;
     color: #fff;
     font-size: 22px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -858,7 +834,7 @@
   }
 
   .skills {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     color: #fff;
     font-size: 32px;
     font-weight: 700;
@@ -868,7 +844,7 @@
     list-style: none;
     color: #fff;
     font-size: 22px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -890,7 +866,7 @@
 
   .contact_description {
     margin-top: 50%;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     width: 85%;
     color: #172b4d;
     font-size: 32px;
@@ -907,7 +883,7 @@
     padding-bottom: 10px;
     color: #dbd8d7;
     font-size: 15px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     margin-bottom: 10%;
   }
 
@@ -918,7 +894,7 @@
     padding-bottom: 10px;
     color: #dbd8d7;
     font-size: 15px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     margin-bottom: 10%;
   }
 
@@ -929,7 +905,7 @@
     border: none;
     text-align: start;
     color: #3c3a39;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     padding: 10px;
     margin-bottom: 5%;
   }
@@ -940,13 +916,13 @@
     padding: 5%;
     border: none;
     width: 40%;
-    margin-bottom: 20%
+    margin-bottom: 20%;
   }
 
   #intouch_id {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-weight: 800;
     font-size: 17px;
   }
@@ -965,7 +941,6 @@
     padding-bottom: 10%;
     width: 50%;
     margin-left: 20%;
-
   }
 
   .slink {
