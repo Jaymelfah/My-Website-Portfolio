@@ -1,0 +1,119 @@
+/* For mobile phones */
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  body {
+    background-color: #1c1a19;
+    height: 100vh;
+    background-image: url("./Images/Illustration.svg");
+    background-repeat: no-repeat;
+    background-position: 100% 115%;
+  }
+
+  .nav_bar {
+    display: flex;
+    background-color: #3c3a39;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  .nav_menu li {
+    list-style: none;
+  }
+
+  .name {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #name_link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .hamburger {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    margin-right: 40px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2%;
+  }
+
+  .intro {
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #ff6b00;
+    font-family: 'Crete Round', serif;
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .job_description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff5e1;
+    margin-bottom: 12px;
+  }
+
+  .details {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    max-width: 266px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 12px;
+  }
+
+  .links {
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 5%;
+    margin-left: 5%;
+  }
+
+  .social a {
+    color: #dbd8d7;
+  }
+
+  .img {
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+
+  a:hover {
+    background-color: #ff6b00;
+  }
+
+  /* This media query makes the illustration disappear so it does not cover the paragraph when screen is smaller */
+  @media only screen and (max-width: 250px) {
+    body {
+      background-image: none;
+    }
+  }
+}
