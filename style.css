@@ -1,4 +1,5 @@
 /* stylelint-disable CssSyntaxError */
+
 /* For mobile phones */
 @media only screen and (max-width: 600px) {
   * {
@@ -228,8 +229,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
@@ -305,8 +306,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
@@ -382,8 +383,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
@@ -459,8 +460,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
@@ -537,8 +538,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
@@ -615,8 +616,8 @@
     margin-right: 5%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
-      url(./Images/Professional\ art\ printing.svg);
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
     height: 500px;
   }
 
