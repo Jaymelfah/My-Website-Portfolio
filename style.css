@@ -116,4 +116,545 @@
       background-image: none;
     }
   }
+
+  /* Works and About Section */
+  .works_container{
+    margin-top: 25%;
+    padding-top: 50%;
+    margin-left: 2%;
+    background-color: #fff;
+  }
+
+  .cards{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    background-color: white;
+
+  }
+  .works_title{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .name_title{
+    font-family: 'Crete Round';
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .line{
+    border-bottom:1px solid #212121;
+    display: block;
+    margin-bottom: 30%;
+  }
+  .card1{
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+  }
+  .gymimg{
+    margin-bottom: 20px;
+    display: block;
+  }
+ 
+  .card1_title{
+    font-family: 'Crete Round';
+    font-size: 32px;
+    font-weight: 400;
+    color: #091e42;
+    display: flex;
+    justify-content: flex-start;
+    width: 85%;
+    margin-bottom: 20px;
+  }
+  .card1_paragraph{
+    font-family: 'Inter', sans-serif;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 16px;
+    max-width: 85%;
+    margin-bottom: 20px;
+  }
+  .buttons1{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0%;
+    margin-right: 15%;
+    margin-bottom: 30px;
+  }
+  .li_buttons1{
+    background: #fff;
+    border: 1px solid #8993a4;
+    padding: 10px 12px;
+  }
+  .card1button{
+    background:  #ff6b00;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-right: 60%;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+  }
+  .card2{
+    display: flex;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+    url(./Images/Professional\ art\ printing.svg);
+    height: 500px;
+    
+  }
+  .card2_title{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-size: 42px;
+    color: #fff;
+    margin-top: 40%;
+    font-weight: 400;
+    width: 85%;
+  }
+  .card2_title2{
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 400;
+    width: 85%;
+  }
+.card2_paragraph {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 16px;
+  width: 85%;
+  color: #fff;
+  line-height: 24px;
+  margin-bottom: 20px;
+
+}
+.buttons2 {
+  display: flex;
+  width: 85%;
+  justify-content: flex-start;
+  list-style: none;
+  padding-left: 0;
+  gap:10px; 
+}
+.li_buttons2{
+  background: rgba(255, 255, 255, 0.24);
+  color:#fff;
+  padding: 10px 12px;
+  width: auto;
+  height: 40px;
+  border: none;
+  align-items: center;
+ 
+}
+.card2button{
+  margin-top: 20%;
+  width: 100%;
+  height: 48px;
+  background: #ff6b00;
+  color: white;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 17px;
+  padding: 12px;
+  border: none;
+  
+}
+/* Card 3 */
+.card3 {
+  display: flex;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+  url(./Images/Professional\ art\ printing.svg);
+  height: 500px; 
+}
+.card3_title{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  margin-top: 40%;
+  font-weight: 400;
+  width: 85%;
+}
+.card3_title3{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  width: 85%;
+}
+.card3_paragraph {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+width: 85%;
+color: #fff;
+line-height: 24px;
+margin-bottom: 20px;
+
+}
+.buttons3 {
+display: flex;
+width: 85%;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0;
+gap:10px; 
+}
+.li_buttons3{
+background: rgba(255, 255, 255, 0.24);
+color:#fff;
+padding: 10px 12px;
+width: auto;
+height: 40px;
+border: none;
+align-items: center;
+
+}
+.card3button{
+margin-top: 20%;
+width: 100%;
+height: 48px;
+background: #ff6b00;
+color: white;
+font-family: 'Inter';
+font-weight: 800;
+font-size: 17px;
+padding: 12px;
+border: none;
+
+}
+/* Card 4 */
+.card4{
+  display: flex;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+  url(./Images/Professional\ art\ printing.svg);
+  height: 500px;
+  
+}
+.card4_title{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  margin-top: 40%;
+  font-weight: 400;
+  width: 85%;
+}
+.card4_title4{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  width: 85%;
+}
+.card4_paragraph {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+width: 85%;
+color: #fff;
+line-height: 24px;
+margin-bottom: 20px;
+
+}
+.buttons4 {
+display: flex;
+width: 85%;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0;
+gap:10px; 
+}
+.li_buttons4{
+background: rgba(255, 255, 255, 0.24);
+color:#fff;
+padding: 10px 12px;
+width: auto;
+height: 40px;
+border: none;
+align-items: center;
+
+}
+.card4button{
+margin-top: 20%;
+width: 100%;
+height: 48px;
+background: #ff6b00;
+color: white;
+font-family: 'Inter';
+font-weight: 800;
+font-size: 17px;
+padding: 12px;
+border: none;
+
+}
+
+/* Card 5 */
+.card5{
+  display: flex;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+  url(./Images/Professional\ art\ printing.svg);
+  height: 500px;
+  
+}
+.card5_title{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  margin-top: 40%;
+  font-weight: 400;
+  width: 85%;
+}
+.card5_title5{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  width: 85%;
+}
+.card5_paragraph {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+width: 85%;
+color: #fff;
+line-height: 24px;
+margin-bottom: 20px;
+
+}
+.buttons5 {
+display: flex;
+width: 85%;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0;
+gap:10px; 
+}
+.li_buttons5{
+background: rgba(255, 255, 255, 0.24);
+color:#fff;
+padding: 10px 12px;
+width: auto;
+height: 40px;
+border: none;
+align-items: center;
+
+}
+.card5button{
+margin-top: 20%;
+width: 100%;
+height: 48px;
+background: #ff6b00;
+color: white;
+font-family: 'Inter';
+font-weight: 800;
+font-size: 17px;
+padding: 12px;
+border: none;
+
+}
+
+/* Card 6 */
+
+
+.card6{
+  display: flex;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+  url(./Images/Professional\ art\ printing.svg);
+  height: 500px;
+  
+}
+.card6_title{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  margin-top: 40%;
+  font-weight: 400;
+  width: 85%;
+}
+.card6_title6{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  width: 85%;
+}
+.card6_paragraph {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+width: 85%;
+color: #fff;
+line-height: 24px;
+margin-bottom: 20px;
+
+}
+.buttons6 {
+display: flex;
+width: 85%;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0;
+gap:10px; 
+}
+.li_buttons6{
+background: rgba(255, 255, 255, 0.24);
+color:#fff;
+padding: 10px 12px;
+width: auto;
+height: 40px;
+border: none;
+align-items: center;
+
+}
+.card6button{
+margin-top: 20%;
+width: 100%;
+height: 48px;
+background: #ff6b00;
+color: white;
+font-family: 'Inter';
+font-weight: 800;
+font-size: 17px;
+padding: 12px;
+border: none;
+
+}
+/* Card 7 */
+
+.card7{
+  display: flex;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
+  url(./Images/Professional\ art\ printing.svg);
+  height: 500px;
+  
+}
+.card7_title{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  margin-top: 40%;
+  font-weight: 400;
+  width: 85%;
+}
+.card7_title7{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-size: 42px;
+  color: #fff;
+  font-weight: 400;
+  width: 85%;
+}
+.card7_paragraph {
+font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+width: 85%;
+color: #fff;
+line-height: 24px;
+margin-bottom: 20px;
+
+}
+.buttons7 {
+display: flex;
+width: 85%;
+justify-content: flex-start;
+list-style: none;
+padding-left: 0;
+gap:10px; 
+}
+.li_buttons7{
+background: rgba(255, 255, 255, 0.24);
+color:#fff;
+padding: 10px 12px;
+width: auto;
+height: 40px;
+border: none;
+align-items: center;
+
+}
+.card7button{
+margin-top: 20%;
+width: 100%;
+height: 48px;
+background: #ff6b00;
+color: white;
+font-family: 'Inter';
+font-weight: 800;
+font-size: 17px;
+padding: 12px;
+border: none;
+
+}
+
+
 }
