@@ -7,10 +7,10 @@
 
   body {
     background-color: #1c1a19;
-    height: 50vh;
+    height: 100vh;
     background-image: url("./Images/Illustration.svg");
     background-repeat: no-repeat;
-    background-position: 100% -340%;
+    background-position: 100% 115%;
   }
 
   .nav_bar {
@@ -56,11 +56,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 5%;
+    margin-left: 2%;
   }
 
   .intro {
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 10px;
     color: #ff6b00;
     font-family: 'Crete Round', serif;
@@ -111,7 +111,7 @@
   }
 
   /* This media query makes the illustration disappear so it does not cover the paragraph when screen is smaller */
-  @media only screen and (max-width: 200px) {
+  @media only screen and (max-width: 250px) {
     body {
       background-image: none;
     }
