@@ -12,7 +12,7 @@
     height: 100vh;
     background-image: url("./Images/Illustration.svg");
     background-repeat: no-repeat;
-    background-position: 100% 115%;
+    background-position: 100% 80%;
   }
 
   .nav_bar {
@@ -125,6 +125,7 @@
     padding-top: 50%;
     margin-left: 2%;
     background-color: #fff;
+    padding-bottom: 30%;
   }
 
   .cards {
@@ -853,11 +854,12 @@
   }
 
   .resume_btn {
-    height: 20%;
+    height: 48px;
     background: #ff6b00;
-    padding: 5%;
+    padding: 12px;
     border: none;
-    width: 45%;
+    width: 161px;
+    font-size: 17px;
     margin-bottom: 85%;
     color: #fff;
     font-family: 'Inter', sans-serif;
@@ -1056,12 +1058,13 @@
   }
 
   .intouch {
-    height: 20%;
+    height: 48px;
     background: #ff6b00;
-    padding: 5%;
+    padding: 3px;
     border: none;
-    width: 35%;
+    width: 131px;
     margin-bottom: 20%;
+    text-align: center;
     color: #fff;
     font-size: 17px;
     font-family: 'Inter', sans-serif;
