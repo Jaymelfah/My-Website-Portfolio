@@ -200,6 +200,7 @@
     padding-left: 0%;
     margin-right: 15%;
     margin-bottom: 30px;
+    gap: 5%;
   }
 
   .li_buttons1 {
@@ -219,6 +220,22 @@
     font-weight: 700;
   }
 
+  .card1button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card1button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card1button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
+  }
+
   .card2 {
     display: flex;
     grid-row-start: 2;
@@ -231,7 +248,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card2_title {
@@ -293,6 +311,26 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card2button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card2button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card2button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* Card 3 */
@@ -308,7 +346,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card3_title {
@@ -370,6 +409,24 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card3button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card3button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card3button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* Card 4 */
@@ -385,7 +442,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card4_title {
@@ -447,6 +505,24 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card4button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card4button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card4button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* Card 5 */
@@ -462,7 +538,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card5_title {
@@ -524,6 +601,24 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card5button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card5button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card5button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* Card 6 */
@@ -540,7 +635,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card6_title {
@@ -602,6 +698,24 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card6button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card6button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card6button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* Card 7 */
@@ -618,7 +732,8 @@
     background-size: cover;
     background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
     background-image: url(./Images/Professional\ art\ printing.svg);
-    height: 500px;
+    height: 100%;
+    position: relative;
   }
 
   .card7_title {
@@ -680,6 +795,24 @@
     font-size: 17px;
     padding: 12px;
     border: none;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .card7button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .card7button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .card7button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   /* About Section */
@@ -724,16 +857,27 @@
     background: #ff6b00;
     padding: 5%;
     border: none;
-    width: 50%;
+    width: 45%;
     margin-bottom: 85%;
-  }
-
-  #resume_link {
-    text-decoration: none;
     color: #fff;
     font-family: 'Inter', sans-serif;
-    font-weight: 800;
-    font-size: 17px;
+    font-weight: 700;
+  }
+
+  .resume_btn:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .resume_btn:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .resume_btn:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   .lang_frameworks {
@@ -916,16 +1060,28 @@
     background: #ff6b00;
     padding: 5%;
     border: none;
-    width: 40%;
+    width: 35%;
     margin-bottom: 20%;
-  }
-
-  #intouch_id {
-    text-decoration: none;
     color: #fff;
+    font-size: 17px;
     font-family: 'Inter', sans-serif;
     font-weight: 800;
-    font-size: 17px;
+  }
+
+  .intouch:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .intouch:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .intouch:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
   }
 
   .footer_container {
