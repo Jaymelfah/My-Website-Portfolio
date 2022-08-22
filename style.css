@@ -1023,12 +1023,20 @@
     margin-bottom: 20%;
   }
 
+  .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
   .fullname {
     width: 85%;
     border: none;
     border-bottom: 1px solid #dbd8d7;
-    padding-bottom: 10px;
-    color: #dbd8d7;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    color: black;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     margin-bottom: 10%;
@@ -1038,8 +1046,9 @@
     width: 85%;
     border: none;
     border-bottom: 1px solid #dbd8d7;
-    padding-bottom: 10px;
-    color: #dbd8d7;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    color: black;
     font-size: 15px;
     font-family: 'Inter', sans-serif;
     margin-bottom: 10%;
@@ -1049,12 +1058,20 @@
     background-color: #fbf8f7;
     height: 114px;
     width: 85%;
+    font-size: 15px;
+    padding-left: 20px;
     border: none;
     text-align: start;
-    color: #3c3a39;
+    color: black;
     font-family: 'Inter', sans-serif;
-    padding: 10px;
     margin-bottom: 5%;
+  }
+
+  textarea::placeholder {
+    color: black;
+    opacity: 1;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
   }
 
   .intouch {
