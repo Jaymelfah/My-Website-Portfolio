@@ -79,12 +79,12 @@
           unknown printer took a standard dummy text.
         </p>
         <ul class="buttons1">
-          <li><button class="li_buttons1">css</button></li>
-          <li><button class="li_buttons1">html</button></li>
-          <li><button class="li_buttons1">bootstrap</button></li>
-          <li><button class="li_buttons1">ruby</button></li>
+          <li><button class="li_buttons1" type="button">css</button></li>
+          <li><button class="li_buttons1" type="button">html</button></li>
+          <li><button class="li_buttons1" type="button">bootstrap</button></li>
+          <li><button class="li_buttons1" type="button">ruby</button></li>
         </ul>
-        <button class="card1button">See Project</button>
+        <button class="card1button" type="button">See Project</button>
       </div>
       <div class="card2">
         <h2 class="card2_title">Professional Art</h2>
@@ -93,11 +93,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons2">
-          <li><button class="li_buttons2">html</button></li>
-          <li><button class="li_buttons2">bootstrap</button></li>
-          <li><button class="li_buttons2">ruby</button></li>
+          <li><button class="li_buttons2" type="button">html</button></li>
+          <li><button class="li_buttons2" type="button">bootstrap</button></li>
+          <li><button class="li_buttons2" type="button">ruby</button></li>
         </ul>
-        <button class="card2button">See Project</button>
+        <button class="card2button" type="button">See Project</button>
       </div>
 
       <div class="card3">
@@ -107,11 +107,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons3">
-          <li><button class="li_buttons3">html</button></li>
-          <li><button class="li_buttons3">bootstrap</button></li>
-          <li><button class="li_buttons3">ruby</button></li>
+          <li><button class="li_buttons3" type="button">html</button></li>
+          <li><button class="li_buttons3" type="button">bootstrap</button></li>
+          <li><button class="li_buttons3" type="button">ruby</button></li>
         </ul>
-        <button class="card3button">See Project</button>
+        <button class="card3button" type="button">See Project</button>
       </div>
 
       <div class="card4">
@@ -121,11 +121,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons4">
-          <li><button class="li_buttons4">html</button></li>
-          <li><button class="li_buttons4">bootstrap</button></li>
-          <li><button class="li_buttons4">ruby</button></li>
+          <li><button class="li_buttons4" type="button">html</button></li>
+          <li><button class="li_buttons4" type="button">bootstrap</button></li>
+          <li><button class="li_buttons4" type="button">ruby</button></li>
         </ul>
-        <button class="card4button">See Project</button>
+        <button class="card4button" type="button">See Project</button>
       </div>
 
       <div class="card5">
@@ -135,11 +135,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons5">
-          <li><button class="li_buttons5">html</button></li>
-          <li><button class="li_buttons5">bootstrap</button></li>
-          <li><button class="li_buttons5">ruby</button></li>
+          <li><button class="li_buttons5" type="button">html</button></li>
+          <li><button class="li_buttons5" type="button">bootstrap</button></li>
+          <li><button class="li_buttons5" type="button">ruby</button></li>
         </ul>
-        <button class="card5button">See Project</button>
+        <button class="card5button" type="button">See Project</button>
       </div>
 
       <div class="card6">
@@ -149,11 +149,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons6">
-          <li><button class="li_buttons6">html</button></li>
-          <li><button class="li_buttons6">bootstrap</button></li>
-          <li><button class="li_buttons6">ruby</button></li>
+          <li><button class="li_buttons6" type="button">html</button></li>
+          <li><button class="li_buttons6" type="button">bootstrap</button></li>
+          <li><button class="li_buttons6" type="button">ruby</button></li>
         </ul>
-        <button class="card6button">See Project</button>
+        <button class="card6button" type="button">See Project</button>
       </div>
 
       <div class="card7">
@@ -163,11 +163,11 @@
           It has been the industry's standard.
         </p>
         <ul class="buttons7">
-          <li><button class="li_buttons7">html</button></li>
-          <li><button class="li_buttons7">bootstrap</button></li>
-          <li><button class="li_buttons7">ruby</button></li>
+          <li><button class="li_buttons7" type="button">html</button></li>
+          <li><button class="li_buttons7" type="button">bootstrap</button></li>
+          <li><button class="li_buttons7" type="button">ruby</button></li>
         </ul>
-        <button class="card7button">See Project</button>
+        <button class="card7button" type="button">See Project</button>
       </div>
     </div>
   </section>
@@ -178,7 +178,7 @@
         Look through some of my work and experience! If you like what
         you see and have a project you need coded, don't hesitate to contact me.
       </p>
-      <button class="resume_btn">Get My Resume</button>
+      <button class="resume_btn" type="button">Get My Resume</button>
     </div>
     <div class="lang_frameworks">
       <span class="second_line"></span>
@@ -218,16 +218,19 @@
       </ul>
     </div>
   </section>
+  <footer class="footer">
   <section class="contact_me">
     <p class="contact_description"> I'm always interested in hearing about new projects,
       so if you'd like to chat please get in.
     </p>
-    <input class="fullname" type="text" placeholder="Full name">
-    <input class="email" type="text" placeholder="Email address">
-    <textarea class="textbox" placeholder="Enter text here"></textarea>
-    <button class="intouch">Get in touch</button>
+    <form class="forms" action="https://formspree.io/f/mayknqjr" method="post">
+    <input class="fullname" type="text" name="fullname" placeholder="Full name" maxlength="30" required>
+    <input class="email" type="email" name="email" placeholder="Email address" required>
+    <textarea class="textbox" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
+    <button class="intouch" type="submit">Get in touch</button>
+    </form>
   </section>
-  <footer class="footer_container">
+  <section class="footer_container">
     <ul class="all_links">
       <li class="socials"><a class="slink" href="https://github.com/Jaymelfah"><i class="fab fa-github"></i></a></li>
       <li class="socials"><a class="slink" href="linkedin.com/in/jeremiah-ekow-melfah-a4402a161"><i
@@ -236,6 +239,7 @@
       <li class="socials"><a class="slink" href="https://twitter.com/home"><i class="fab fa-twitter"></i></a></li>
       <li class="socials"><a class="slink" href="https://medium.com/@jerasterix"><i class="fab fa-medium"></i></a></li>
     </ul>
+  </section>
   </footer>
 
 
