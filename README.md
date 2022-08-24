@@ -4,7 +4,7 @@
 # Portfolio Website Project
 
 ### Project Description
->The Primary purpose of this project is to complete the mobile version of my portfolio website.
+>The Primary purpose of this project is to complete the Desktop version of my portfolio website.
 
 
  ### Objectives
@@ -13,6 +13,7 @@
 > Build the About Section
 > Build the Works Section
 > Finish the Contact Us Section
+> Implement all designs as close as the template in the figma file
 
 ## Built With
 
