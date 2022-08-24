@@ -1223,9 +1223,10 @@ textarea::placeholder {
   }
 
   .job_description > p {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Inter', sans-serif;
     color: #fff;
+    line-height: 40px;
   }
 
   .intro {
@@ -1235,9 +1236,11 @@ textarea::placeholder {
   }
 
   .details > p {
-    width: 466px;
-    font-size: 15px;
+    width: 400px;
+    font-size: 20px;
+    line-height: 32px;
     font-family: 'Inter', sans-serif;
+    font-weight: 400;
   }
 
   body {
@@ -1267,7 +1270,8 @@ textarea::placeholder {
   }
 
   .line {
-    width: 70%;
+    width: 80%;
+    margin-right: 25%;
     padding-top: 24px;
     margin-left: 2%;
   }
@@ -1283,17 +1287,21 @@ textarea::placeholder {
   .card1 {
     grid-area: m;
     display: grid;
+    column-gap: 8%;
     grid-template-columns: 60% 40%;
   }
 
   .gymimg {
     grid-column: 1/2;
-    width: 520px;
+    width: 100%;
   }
 
   .details_gyming {
     grid-column: 2/3;
+    width: 100%;
     margin-bottom: 90px;
+    height: 100%;
+    padding-top: 10%;
   }
 
   /* Card 2 details for desktop  */
@@ -1597,8 +1605,9 @@ textarea::placeholder {
     width: 100%;
     background-color: #1c1a19;
     background-image: url(./Images/About-me.svg);
+    background-size: 45% 40%;
     background-repeat: no-repeat;
-    background-position: 100% 5%;
+    background-position: 100% 0%;
   }
 
   .aboutme {
@@ -1634,14 +1643,29 @@ textarea::placeholder {
 
   .lang {
     grid-area: l;
+    width: 85%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
   }
 
   .frame {
     grid-area: k;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
   }
 
   .skills_list {
     grid-area: s;
+    width: 85%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
   }
 
   .var_languages {
@@ -1649,7 +1673,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-top: 0;
     height: 110%;
   }
@@ -1659,7 +1683,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-top: 0;
     height: 100%;
   }
@@ -1669,7 +1693,7 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 10px;
+    padding-left: 5px;
     margin-top: 0;
     height: 100%;
   }
