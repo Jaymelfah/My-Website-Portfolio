@@ -53,6 +53,10 @@ body {
   margin-right: 40px;
 }
 
+.desktop_icons {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -136,7 +140,7 @@ a:hover {
   background-color: #fff;
 }
 
-.works_title {
+#works_title {
   display: flex;
   flex-direction: column;
   width: 80%;
@@ -251,6 +255,10 @@ a:hover {
   background-image: url(./Images/Professional\ art\ printing.svg);
   height: 100%;
   position: relative;
+}
+
+.card2_desktop {
+  display: none;
 }
 
 .card2_title {
@@ -430,6 +438,10 @@ a:hover {
   color: #5b5957;
 }
 
+.card3_card5 {
+  display: none;
+}
+
 /* Card 4 */
 .card4 {
   display: flex;
@@ -526,6 +538,10 @@ a:hover {
   color: #5b5957;
 }
 
+.card4_desktop {
+  display: none;
+}
+
 /* Card 5 */
 .card5 {
   display: flex;
@@ -620,6 +636,10 @@ a:hover {
 .card5button:disabled {
   background-color: #f4f1f0;
   color: #5b5957;
+}
+
+.card5_second {
+  display: none;
 }
 
 /* Card 6 */
@@ -719,6 +739,10 @@ a:hover {
   color: #5b5957;
 }
 
+.card6_desktop {
+  display: none;
+}
+
 /* Card 7 */
 
 .card7 {
@@ -816,9 +840,13 @@ a:hover {
   color: #5b5957;
 }
 
+.card7_desktop {
+  display: none;
+}
+
 /* About Section */
 
-.aboutme_section {
+#aboutme_section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1003,7 +1031,7 @@ a:hover {
 
 /* Contact Us Section */
 
-.contact_me {
+#contact_me {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -1023,7 +1051,7 @@ a:hover {
   margin-bottom: 20%;
 }
 
-.forms {
+#forms {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1126,4 +1154,434 @@ textarea::placeholder {
   height: 20px;
   font-weight: 700;
   font-size: 20px;
+}
+
+/* Bigger Screen (Desktop) Version */
+@media only screen and (min-width: 768px) {
+  .desktop_icons {
+    display: block;
+    z-index: 100;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .name_logo {
+    margin-right: 40%;
+    width: 170px;
+  }
+
+  .nav_menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+    padding-right: 10%;
+  }
+
+  .nav_menu > li > a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 5% 95%;
+    grid-template-areas: "l d";
+    column-gap: 10px;
+    height: 100%;
+    background-image: url(/Images/desktop-illustration.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 60%;
+    background-size: 45% 100%;
+    padding-bottom: 0;
+  }
+
+  .social_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: l;
+    height: 100%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .job_description_section {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+
+  .job_description > p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+  }
+
+  .intro {
+    padding-top: 0;
+    font-size: 55px;
+    font-weight: 400;
+  }
+
+  .details > p {
+    width: 466px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    background-image: none;
+  }
+
+  .works_container {
+    margin-top: 0;
+    padding-top: 135px;
+    width: 100%;
+  }
+
+  #works_title {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-bottom: 10%;
+  }
+
+  .name_title {
+    width: 35%;
+    font-size: 35px;
+  }
+
+  .line {
+    width: 70%;
+    padding-top: 24px;
+    margin-left: 2%;
+  }
+
+  .cards {
+    border: 2px solid red;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "m m m""a b c""d e f";
+  }
+
+  .card1 {
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .gymimg {
+    grid-column: 1/2;
+    width: 520px;
+  }
+
+  .details_gyming {
+    grid-column: 2/3;
+    margin-bottom: 90px;
+  }
+
+  /* Card 2 details for desktop  */
+  .card2_desktop {
+    grid-area: a;
+    background-image: url(/Images/Card-2-img.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+  }
+
+  .desktop_card2button {
+    margin-top: 20%;
+    width: 100%;
+    height: 48px;
+    background: #ff6b00;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    padding: 12px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .desktop_card2button:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .desktop_card2button:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .desktop_card2button:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
+  }
+
+  .card2 {
+    display: none;
+  }
+
+  /* Card3 and Card5 details */
+
+  .card3_card5 {
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Card3-Card5-img.svg);
+    height: 100%;
+    position: relative;
+  }
+
+  .card3_card5_title {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 42px;
+    color: #fff;
+    margin-top: 35%;
+    font-weight: 400;
+    width: 85%;
+  }
+
+  .card3_card5_title35 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 400;
+    width: 85%;
+  }
+
+  .card3_card5_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 85%;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 10%;
+  }
+
+  .buttons35 {
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .li_buttons35 {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    padding: 10px 12px;
+    width: auto;
+    height: 40px;
+    border: none;
+    align-items: center;
+  }
+
+  .card3 {
+    display: none;
+  }
+
+  .card5 {
+    display: none;
+  }
+
+  .card4 {
+    display: none;
+  }
+
+  .card6 {
+    display: none;
+  }
+
+  .card7 {
+    display: none;
+  }
+
+  .card5_second {
+    grid-area: e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Card3-Card5-img.svg);
+    height: 100%;
+    position: relative;
+  }
+
+  /* Card 4 and 7 desktop  */
+  .card4_desktop {
+    grid-area: c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Images/Card4-Card7-img.svg);
+    height: 100%;
+    position: relative;
+  }
+
+  .card4_desktop_title {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 50%;
+    font-weight: 400;
+    width: 85%;
+  }
+
+  .card4_desktop_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 85%;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .buttons4_desktop {
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .li_buttons_desktop4 {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    padding: 10px 12px;
+    width: auto;
+    height: 40px;
+    border: none;
+    align-items: center;
+  }
+
+  .card7_desktop {
+    grid-area: f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./Images/Card4-Card7-img.svg);
+    height: 100%;
+    position: relative;
+  }
+
+  /* Card6 (remember slot 6 is swapped with slot 5 */
+
+  .card6_desktop {
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background-image: url(./Images/Professional\ art\ printing.svg);
+    height: 100%;
+    position: relative;
+  }
+
+  .card6_desktop_title {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff;
+    margin-top: 40%;
+    font-weight: 400;
+    width: 85%;
+  }
+
+  .card6_desktop_title6 {
+    font-family: 'Crete Round', serif;
+    font-style: normal;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 400;
+    width: 85%;
+  }
+
+  .card6_desktop_paragraph {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    width: 85%;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .buttons6_desktop {
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+    gap: 10px;
+    position: absolute;
+    bottom: 5%;
+  }
+
+  .li_buttons6_desktop {
+    background: rgba(255, 255, 255, 0.24);
+    color: #fff;
+    padding: 10px 12px;
+    width: auto;
+    height: 40px;
+    border: none;
+    align-items: center;
+  }
 }
