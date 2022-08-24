@@ -1248,6 +1248,7 @@ textarea::placeholder {
     margin-top: 0;
     padding-top: 135px;
     width: 100%;
+    padding-bottom: 12%;
   }
 
   #works_title {
@@ -1275,6 +1276,8 @@ textarea::placeholder {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "m m m""a b c""d e f";
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .card1 {
@@ -1365,9 +1368,9 @@ textarea::placeholder {
   .card3_card5_title {
     font-family: 'Crete Round', serif;
     font-style: normal;
-    font-size: 42px;
+    font-size: 40px;
     color: #fff;
-    margin-top: 35%;
+    margin-top: 30%;
     font-weight: 400;
     width: 85%;
   }
@@ -1375,7 +1378,7 @@ textarea::placeholder {
   .card3_card5_title35 {
     font-family: 'Crete Round', serif;
     font-style: normal;
-    font-size: 42px;
+    font-size: 40px;
     color: #fff;
     font-weight: 400;
     width: 85%;
@@ -1539,7 +1542,7 @@ textarea::placeholder {
     font-style: normal;
     font-size: 35px;
     color: #fff;
-    margin-top: 40%;
+    margin-top: 30%;
     font-weight: 400;
     width: 85%;
   }
@@ -1582,5 +1585,130 @@ textarea::placeholder {
     height: 40px;
     border: none;
     align-items: center;
+  }
+
+  /* About Me Section  */
+
+  #aboutme_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1c1a19;
+    background-image: url(./Images/About-me.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 5%;
+  }
+
+  .aboutme {
+    margin-top: 10%;
+    height: 70%;
+    width: 30%;
+    margin-right: 40%;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+
+  .resume_btn {
+    margin-bottom: 50%;
+  }
+
+  .second_line {
+    border-bottom: 1px solid #fff;
+    margin-bottom: 10%;
+    width: 70%;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .lang_frameworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "l k s""la kb sc";
+    margin-left: 25%;
+    margin-right: 15%;
+    width: 80%;
+  }
+
+  .lang {
+    grid-area: l;
+  }
+
+  .frame {
+    grid-area: k;
+  }
+
+  .skills_list {
+    grid-area: s;
+  }
+
+  .var_languages {
+    grid-area: la;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 0;
+    height: 110%;
+  }
+
+  .var_frameworks {
+    grid-area: kb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  .var_skills {
+    grid-area: sc;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  /*  Contact Me Section */
+
+  #contact_me {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: "des mes";
+    width: 100%;
+  }
+
+  .contact_description {
+    grid-area: des;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 0;
+    color: #262626;
+    margin-left: 10%;
+    margin-bottom: 45%;
+    line-height: 52px;
+    text-align: left;
+  }
+
+  #forms {
+    grid-area: mes;
+    margin-top: 15%;
+  }
+
+  .all_links {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 15px;
+    padding-bottom: 18px;
+  }
+
+  .footer_container {
+    height: 100%;
   }
 }
