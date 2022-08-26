@@ -76,6 +76,28 @@ body {
   font-family: 'Crete Round', serif;
   font-size: 35px;
   font-weight: 400;
+  width: fit-content;
+}
+
+.intro > h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 4px solid #1c1a19; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 0.95s steps(8, end), blinking 0.75s step-end 1;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking {
+  from { border-color: transparent; }
+  to { border-color: transparent; }
+  50% { border-color: #ff6b00; }
 }
 
 .job_description {
