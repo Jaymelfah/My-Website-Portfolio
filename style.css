@@ -76,6 +76,54 @@ body {
   font-family: 'Crete Round', serif;
   font-size: 35px;
   font-weight: 400;
+  width: fit-content;
+}
+
+.intro > h1 {
+  overflow: hidden;
+  border-right: 4px solid #1c1a19;
+  white-space: nowrap;
+  margin: 0;
+  animation: typing 0.95s steps(8, end), blinking 0.75s step-end 1;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking {
+  from {
+    border-color: transparent;
+  }
+
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #ff6b00;
+  }
+}
+
+.animation-h2 {
+  width: 50%;
+  opacity: 0;
+  overflow: hidden;
+  border-right: 4px solid #1c1a19;
+  white-space: nowrap;
+  margin: 0;
+  animation: typing 0.95s steps(8, end), blinking 0.75s step-end 1;
+  animation-delay: 1.5s;
+  animation-fill-mode: forwards;
 }
 
 .job_description {
