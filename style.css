@@ -81,20 +81,34 @@ body {
 
 .intro > h1 {
   overflow: hidden;
-  border-right: 4px solid #1c1a19;
+  border-right: 4px solid #ff6b00;
   white-space: nowrap;
   margin: 0;
-  animation: typing 0.95s steps(8, end), blinking 0.75s step-end 1;
+  animation: typing 1.95s steps(30, end), blinking 0.75s, bordercolor 1.95s step-end 1;
+  animation-fill-mode: forwards;
 }
 
 /* The typing effect */
 @keyframes typing {
   from {
     width: 0;
+    opacity: 1;
   }
 
   to {
     width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes typing2 {
+  from {
+    width: 0;
+    opacity: 1;
+  }
+
+  to {
+    width: 70%;
     opacity: 1;
   }
 }
@@ -114,15 +128,25 @@ body {
   }
 }
 
+@keyframes bordercolor {
+  from {
+    border-right: 4px solid #ff6b00;
+  }
+
+  100% {
+    border-right: 4px solid #1c1a19;
+  }
+}
+
 .animation-h2 {
-  width: 50%;
+  width: 40%;
   opacity: 0;
   overflow: hidden;
-  border-right: 4px solid #1c1a19;
+  border-right: 4px solid #ff6b00;
   white-space: nowrap;
   margin: 0;
-  animation: typing 0.95s steps(8, end), blinking 0.75s step-end 1;
-  animation-delay: 1.5s;
+  animation: typing2 1.95s steps(30, end), blinking 0.75s step-end infinite;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
 }
 
