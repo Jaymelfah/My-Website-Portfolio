@@ -9,10 +9,15 @@
 
  ### Objectives
 > Build a Toolbar for the project
+
 > Build a headline section for the project 
+
 > Build the About Section
+
 > Build the Works Section
+
 > Finish the Contact Us Section
+
 > Implement all designs as close as the template in the figma file
 
 ## Built With
@@ -30,13 +35,17 @@
 
 > Prepare a CSS file
 
+### Preview of Project page
+![Preview](./Images/Project%20preview.png)
 
+### Kindly Use this link to visit the website 
+> [https://jaymelfah.github.io/Mobile-Portfolio/]
 
 ## Authors
 
 👤 **Jaymelfah**
 
-- GitHub: [@githubhandle](https://github.com/Jaymelfah)
+- GitHub: [https://github.com/Jaymelfah]
 
 
 ## 🤝 Contributing
