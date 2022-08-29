@@ -30,13 +30,17 @@
 
 > Prepare a CSS file
 
+### Preview of Project page
+![Preview](./Images/Project%20preview.png)
 
+### Kindly Use this link to visit the website 
+> [https://jaymelfah.github.io/Mobile-Portfolio/]
 
 ## Authors
 
 👤 **Jaymelfah**
 
-- GitHub: [@githubhandle](https://github.com/Jaymelfah)
+- GitHub: [https://github.com/Jaymelfah]
 
 
 ## 🤝 Contributing
