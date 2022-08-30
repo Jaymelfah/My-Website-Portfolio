@@ -2235,3 +2235,11 @@ textarea::placeholder {
     height: 100%;
   }
 }
+
+.form_label_name {
+  display: none;
+}
+
+.form_label_email {
+  display: none;
+}
