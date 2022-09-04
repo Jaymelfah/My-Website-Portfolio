@@ -51,11 +51,41 @@ body {
 }
 
 .hamburger {
-  color: white;
-  font-size: 26px;
-  font-weight: 700;
-  margin-right: 40px;
+  display: block;
+  position: relative;
 }
+
+.nav-toggle {
+  padding: 0.5em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 15px;
+  z-index: 1000;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  background: #fff;
+  width: 20px;
+  height: 2.5px;
+  border-radius: 1em;
+  transition: transform 250ms ease-in-out;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.hamburger::before { top: 6px; }
+.hamburger::after { bottom: 6px; }
 
 .desktop_icons {
   display: none;
