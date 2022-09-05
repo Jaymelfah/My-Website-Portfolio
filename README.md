@@ -20,9 +20,11 @@
 
 > Implement all designs as close as the template in the figma file
 
+> Add menu pop up to mobile screens
+
 ## Built With
 
-- HTML/CSS
+- HTML/CSS/JS
 
 
 
