@@ -134,6 +134,24 @@ body {
 transform: translateX(0%);
 }
 
+.hamburger-open .nav-toggle {
+  position: fixed;
+}
+
+.hamburger-open .hamburger {
+  transform: rotate(0.625turn);
+  background-color: #67798e;
+}
+
+.hamburger-open .hamburger::after {
+  opacity: 0;
+}
+
+.hamburger-open .hamburger::before {
+  transform: rotate(90deg) translateX(-6px);
+  background-color: #67798e;
+}
+
 .desktop_icons {
   display: none;
 }
