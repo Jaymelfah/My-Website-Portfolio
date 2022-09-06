@@ -371,19 +371,20 @@ a:hover {
 
 .buttons1 {
   display: flex;
-  width: 70%;
-  justify-content: space-between;
+  width: 90%;
+  justify-content: flex-start;
   list-style: none;
   padding-left: 0%;
   margin-right: 15%;
   margin-bottom: 30px;
-  gap: 5%;
+  gap: 2%;
 }
 
 .li_buttons1 {
   background: #fff;
   border: 1px solid #8993a4;
   padding: 10px 12px;
+  width: fit-content;
 }
 
 .card1button {
@@ -391,7 +392,6 @@ a:hover {
   color: #fff;
   padding: 12px;
   border: none;
-  margin-right: 60%;
   font-family: 'Inter', sans-serif;
   font-size: 17px;
   font-weight: 700;
@@ -1016,6 +1016,59 @@ a:hover {
   display: none;
 }
 
+.background-modal {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.modal {
+  background: #fff;
+  margin: 5% 5%;
+  padding: 1rem;
+  z-index: 90;
+  position: relative;
+  height: 100%;
+}
+
+.header-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.header-modal > h2 {
+  color: #172b4d;
+}
+
+.modal-img {
+  width: 100%;
+}
+
+.close {
+  font-size: 35px;
+  color: #67798e;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0.45rem;
+  right: 5px;
+  cursor: pointer;
+}
+
+.modal-par {
+  padding-top: 8%;
+}
+
+.liveSource-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+}
+
 /* About Section */
 
 #aboutme_section {
@@ -1333,6 +1386,38 @@ textarea::placeholder {
   .desktop_icons {
     display: block;
     z-index: 100;
+  }
+
+  .modal {
+    width: 70%;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-img {
+    width: 60%;
+    height: 30%;
+  }
+
+  .modal-par {
+    padding-top: 0;
+    width: 30%;
+    height: 30%;
+  }
+
+  .liveSource-buttons {
+    position: absolute;
+    bottom: 2.1rem;
+    right: 6.6rem;
+    gap: 1%;
+    width: 28%;
+  }
+
+  .mod-img-par {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
   }
 
   .nav {
