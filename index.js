@@ -24,8 +24,8 @@ const cardArray = [{
   technology2: 'html',
   technology3: 'bootstrap',
   technology4: 'ruby',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Card2',
@@ -37,8 +37,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Card3',
@@ -50,8 +50,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Card4',
@@ -62,8 +62,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Project5',
@@ -73,8 +73,8 @@ const cardArray = [{
   technology1: 'html',
   technology2: 'bootstrap',
   technology3: 'Ruby on rails',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Project6',
@@ -84,8 +84,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Project7',
@@ -95,8 +95,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Project8',
@@ -106,8 +106,8 @@ const cardArray = [{
   technology1: 'Ruby on rails',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 {
   name: 'Project9',
@@ -117,8 +117,8 @@ const cardArray = [{
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': '#',
-  'link to source': '#',
+  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
+  'link to source': 'https://github.com/Jaymelfah',
 },
 ];
 // Create first card using javascript
@@ -191,6 +191,10 @@ popUp.addEventListener('click', () => {
   popImg.src = cardArray[6].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[6].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -207,6 +211,10 @@ popUp2.addEventListener('click', () => {
   popImg.src = cardArray[6].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[6].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -263,6 +271,10 @@ popUp3.addEventListener('click', () => {
   popImg.src = cardArray[7].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[7].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -291,6 +303,10 @@ popUp6.addEventListener('click', () => {
   popImg.src = cardArray[8].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[8].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -317,6 +333,10 @@ popUp4.addEventListener('click', () => {
   popImg.src = cardArray[5].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[5].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -345,6 +365,10 @@ popUp5.addEventListener('click', () => {
   popImg.src = cardArray[4].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[4].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
@@ -371,6 +395,10 @@ popUp7.addEventListener('click', () => {
   popImg.src = cardArray[4].image;
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[4].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
 });
 
