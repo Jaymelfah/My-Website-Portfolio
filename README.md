@@ -22,6 +22,8 @@
 
 > Add menu pop up to mobile screens
 
+> Dynamically add data to Works section
+
 ## Built With
 
 - HTML/CSS/JS

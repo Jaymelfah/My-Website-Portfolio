@@ -91,7 +91,7 @@ const cardArray = [{
   name: 'Project7',
   title: 'Multi-post Stories',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione exercitationem laboriosam sequi quo,   voluptates ve ritatis iusto magni beatae, labore voluptatibus odit placeat perspiciatis vero voluptate quas debitis. Omnis provident quisquam illo qui, at eos excepturi nobis exercitationem est ratione molestiae, accusamus veritatis fugit. Iusto odit aspernatur nam quasi sequi ducimus quibusdam. Explicabo sint inventore fugit quis soluta voluptates accusantium',
-  image: 'Images/Project1.png',
+  image: 'Images/Snapshoot Portfolio.png',
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
@@ -502,7 +502,7 @@ mButtons6[0].textContent = cardArray[2].technology1;
 mButtons6[1].textContent = cardArray[2].technology2;
 mButtons6[2].textContent = cardArray[2].technology3;
 
-//mobile card 6 pop-up
+// Mobile card 6 pop-up
 const mpopUp6 = document.querySelector('.card6button');
 mpopUp6.addEventListener('click', () => {
   const modalHeader = document.querySelector('.modal-h2');
@@ -534,7 +534,7 @@ mButtons7[0].textContent = cardArray[2].technology1;
 mButtons7[1].textContent = cardArray[2].technology2;
 mButtons7[2].textContent = cardArray[2].technology3;
 
-//mobile pop up for card 7
+// Mobile pop up for card 7
 const mpopUp7 = document.querySelector('.card7button');
 mpopUp7.addEventListener('click', () => {
   const modalHeader = document.querySelector('.modal-h2');
