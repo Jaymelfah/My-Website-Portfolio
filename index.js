@@ -502,6 +502,26 @@ mButtons6[0].textContent = cardArray[2].technology1;
 mButtons6[1].textContent = cardArray[2].technology2;
 mButtons6[2].textContent = cardArray[2].technology3;
 
+//mobile card 6 pop-up
+const mpopUp6 = document.querySelector('.card6button');
+mpopUp6.addEventListener('click', () => {
+  const modalHeader = document.querySelector('.modal-h2');
+  modalHeader.textContent = cardArray[8].title;
+  const tech = document.querySelectorAll('.butts1');
+  tech[0].textContent = cardArray[8].technology1;
+  tech[1].textContent = cardArray[8].technology2;
+  tech[2].textContent = cardArray[8].technology3;
+  const popImg = document.querySelector('.modal-img');
+  popImg.src = cardArray[8].image;
+  const modalParagraph = document.querySelector('.modal-par');
+  modalParagraph.textContent = cardArray[8].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
+  document.querySelector('.background-modal').style.display = 'block';
+});
+
 // Mobile Version Card 7
 const mCard7title = document.querySelector('.card7_title');
 mCard7title.textContent = cardArray[2].title;
@@ -513,6 +533,26 @@ const mButtons7 = document.querySelectorAll('.li_buttons7');
 mButtons7[0].textContent = cardArray[2].technology1;
 mButtons7[1].textContent = cardArray[2].technology2;
 mButtons7[2].textContent = cardArray[2].technology3;
+
+//mobile pop up for card 7
+const mpopUp7 = document.querySelector('.card7button');
+mpopUp7.addEventListener('click', () => {
+  const modalHeader = document.querySelector('.modal-h2');
+  modalHeader.textContent = cardArray[4].title;
+  const tech = document.querySelectorAll('.butts1');
+  tech[0].textContent = cardArray[4].technology1;
+  tech[1].textContent = cardArray[4].technology2;
+  tech[2].textContent = cardArray[4].technology3;
+  const popImg = document.querySelector('.modal-img');
+  popImg.src = cardArray[4].image;
+  const modalParagraph = document.querySelector('.modal-par');
+  modalParagraph.textContent = cardArray[4].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
+  document.querySelector('.background-modal').style.display = 'block';
+});
 
 // Pop Up functions
 
