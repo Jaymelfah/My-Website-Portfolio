@@ -1058,6 +1058,11 @@ a:hover {
   top: 0.45rem;
   right: 8px;
   cursor: pointer;
+  transition: font-size ease-in-out 0.75s;
+}
+
+.close:hover {
+  font-size: 50px;
 }
 
 .modal-par {

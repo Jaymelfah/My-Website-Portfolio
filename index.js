@@ -470,6 +470,26 @@ mButtons5[0].textContent = cardArray[2].technology1;
 mButtons5[1].textContent = cardArray[2].technology2;
 mButtons5[2].textContent = cardArray[2].technology3;
 
+// Mobile Version Card 5 popup
+const mpopUp5 = document.querySelector('.card5button');
+mpopUp5.addEventListener('click', () => {
+  const modalHeader = document.querySelector('.modal-h2');
+  modalHeader.textContent = cardArray[4].title;
+  const tech = document.querySelectorAll('.butts1');
+  tech[0].textContent = cardArray[4].technology1;
+  tech[1].textContent = cardArray[4].technology2;
+  tech[2].textContent = cardArray[4].technology3;
+  const popImg = document.querySelector('.modal-img');
+  popImg.src = cardArray[4].image;
+  const modalParagraph = document.querySelector('.modal-par');
+  modalParagraph.textContent = cardArray[4].description;
+  const sourceLink = document.querySelector('.source-link');
+  sourceLink.href = cardArray[6]['link to source'];
+  const liveLink = document.querySelector('.live-link');
+  liveLink.href = cardArray[6]['link to live version'];
+  document.querySelector('.background-modal').style.display = 'block';
+});
+
 // Mobile Version Card 6
 const mCard6title = document.querySelector('.card6_title');
 mCard6title.textContent = cardArray[2].title;
