@@ -588,8 +588,8 @@ form.addEventListener('submit', (e) => {
 
 // local storage
 const userData = [];
-const submit = document.getElementById('intouch1');
-submit.addEventListener('click', () => {
+const submit = document.getElementById('forms');
+submit.addEventListener('input', () => {
   const user = {
     fullname: document.querySelector('.fullname').value,
     email: document.getElementById('email').value,
