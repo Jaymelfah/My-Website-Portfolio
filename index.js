@@ -585,3 +585,25 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+// local storage
+const userData = [];
+const submit = document.getElementById('forms');
+submit.addEventListener('input', () => {
+  const user = {
+    fullname: document.querySelector('.fullname').value,
+    email: document.getElementById('email').value,
+    message: document.querySelector('.textbox').value,
+  };
+  userData.push(user);
+  localStorage.setItem('userDataInfo', JSON.stringify(userData));
+});
+const userDatafromLocalstorage = JSON.parse(localStorage.getItem('userDataInfo'));
+function showInputs() {
+  document.querySelector('.fullname').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].fullname;
+  document.getElementById('email').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].email;
+  document.querySelector('.textbox').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].message;
+}
+document.addEventListener('DOMContentLoaded', () => {
+  showInputs();
+});
