@@ -585,3 +585,22 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
   }
 });
+
+// local storage
+const userData = [];
+const submit = document.getElementById('intouch1');
+submit.addEventListener('click', () => {
+  const user = {
+    fullname: document.querySelector('.fullname').value,
+    email: document.getElementById('email').value,
+    message: document.querySelector('.textbox').value,
+  };
+  userData.push(user);
+  localStorage.setItem('userDataInfo', JSON.stringify(userData));
+});
+const userDatafromLocalstorage = JSON.parse(localStorage.getItem('userDataInfo'));
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  showInputs();
+});
