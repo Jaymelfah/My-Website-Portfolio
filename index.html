@@ -327,9 +327,11 @@
         <label class="form_label_name">Fullname</label>
         <input class="fullname" type="text" name="fullname" placeholder="Full name" maxlength="30" required>
         <label class="form_label_email">Email</label>
-        <input class="email" type="email" name="email" placeholder="Email address" required>
+        <input class="email" id="email" type="email" name="email" placeholder="Email address" required>
         <textarea class="textbox" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
-        <button class="intouch" type="submit">Get in touch</button>
+        <i id="errortag" class="fa-solid fa-triangle-exclamation"></i>
+        <small class="error"></small>
+        <button onclick="validate()" class="intouch" type="submit">Get in touch</button>
       </form>
     </section>
     <section class="footer_container">
