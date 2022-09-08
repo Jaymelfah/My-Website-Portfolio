@@ -1025,6 +1025,7 @@ a:hover {
   right: 0;
   display: none;
   transition: display ease-in-out 3s;
+  z-index: 500;
 }
 
 .modal {
@@ -1298,6 +1299,7 @@ a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  position: relative;
 }
 
 .fullname {
@@ -1312,7 +1314,7 @@ a:hover {
   line-height: 35px;
 }
 
-.email {
+#email {
   width: 85%;
   border: none;
   border-bottom: 1px solid #dbd8d7;
@@ -1335,7 +1337,7 @@ a:hover {
   text-align: start;
   color: black;
   font-family: 'Inter', sans-serif;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 textarea::placeholder {
@@ -1396,6 +1398,21 @@ textarea::placeholder {
   height: 20px;
   font-weight: 700;
   font-size: 20px;
+}
+
+.error {
+  color: #c92432;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 5%;
+}
+
+#errortag {
+  position: absolute;
+  right: 10%;
+  top: 21%;
+  color: #c92432;
+  visibility: hidden;
 }
 
 /* Bigger Screen (Desktop) Version */

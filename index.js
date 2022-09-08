@@ -561,3 +561,25 @@ const closePopup = document.querySelector('.close');
 closePopup.addEventListener('click', () => {
   document.querySelector('.background-modal').style.display = 'none';
 });
+
+// Form validation
+
+const form = document.getElementById('forms');
+
+// eslint-disable-next-line no-unused-vars
+function validate() {
+  const email = document.getElementById('email').value;
+  const checkEmail = email.toLowerCase();
+  if (checkEmail === email) {
+    return true;
+  }
+  document.querySelector('.error').textContent = 'Email address should be in Lowercase.';
+  document.getElementById('errortag').style.visibility = 'visible';
+  return false;
+}
+
+form.addEventListener('submit', (e) => {
+  if (validate() === false) {
+    e.preventDefault();
+  }
+});
