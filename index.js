@@ -604,8 +604,6 @@ function showInputs() {
   document.getElementById('email').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].email;
   document.querySelector('.textbox').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].message;
 }
-
-
 document.addEventListener('DOMContentLoaded', () => {
   showInputs();
 });
