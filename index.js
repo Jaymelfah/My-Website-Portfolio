@@ -599,6 +599,11 @@ submit.addEventListener('click', () => {
   localStorage.setItem('userDataInfo', JSON.stringify(userData));
 });
 const userDatafromLocalstorage = JSON.parse(localStorage.getItem('userDataInfo'));
+function showInputs() {
+  document.querySelector('.fullname').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].fullname;
+  document.getElementById('email').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].email;
+  document.querySelector('.textbox').value = userDatafromLocalstorage[userDatafromLocalstorage.length - 1].message;
+}
 
 
 document.addEventListener('DOMContentLoaded', () => {
