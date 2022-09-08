@@ -571,6 +571,8 @@ function validate() {
   const email = document.getElementById('email').value;
   const checkEmail = email.toLowerCase();
   if (checkEmail === email) {
+    document.querySelector('.error').textContent = '';
+    document.getElementById('errortag').style.visibility = 'hidden';
     return true;
   }
   document.querySelector('.error').textContent = 'Email address should be in Lowercase.';
