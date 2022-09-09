@@ -196,6 +196,7 @@ popUp.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Pop up card 2 desktop
@@ -216,6 +217,7 @@ popUp2.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // second card(mobile)
@@ -244,6 +246,7 @@ mpopUp2.addEventListener('click', () => {
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[6].description;
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Card 3 desktop version
@@ -276,6 +279,7 @@ popUp3.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Card6 Desktop version (note that 6 was swapped with 5)
@@ -308,6 +312,7 @@ popUp6.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Card4 Desktop
@@ -338,6 +343,7 @@ popUp4.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Card5 Desktop
@@ -370,6 +376,7 @@ popUp5.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Card7 Desktop
@@ -400,6 +407,7 @@ popUp7.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Mobile Versions Card 3
@@ -456,6 +464,7 @@ mpopUp4.addEventListener('click', () => {
   const modalParagraph = document.querySelector('.modal-par');
   modalParagraph.textContent = cardArray[5].description;
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Mobile Version Card 5
@@ -488,6 +497,7 @@ mpopUp5.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Mobile Version Card 6
@@ -520,6 +530,7 @@ mpopUp6.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Mobile Version Card 7
@@ -552,6 +563,7 @@ mpopUp7.addEventListener('click', () => {
   const liveLink = document.querySelector('.live-link');
   liveLink.href = cardArray[6]['link to live version'];
   document.querySelector('.background-modal').style.display = 'block';
+  document.body.style.overflow = 'hidden';
 });
 
 // Pop Up functions
@@ -560,6 +572,7 @@ mpopUp7.addEventListener('click', () => {
 const closePopup = document.querySelector('.close');
 closePopup.addEventListener('click', () => {
   document.querySelector('.background-modal').style.display = 'none';
+  document.body.style.overflow = 'scroll';
 });
 
 // Form validation
