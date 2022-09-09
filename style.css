@@ -17,6 +17,7 @@ body {
   background-image: url("./Images/Illustration.svg");
   background-repeat: no-repeat;
   background-position: 100% 80%;
+  overflow: scroll;
 }
 
 /* Mobile menu hamburger */
@@ -1032,7 +1033,7 @@ a:hover {
   background: #fff;
   margin: 5% 5%;
   padding: 1rem;
-  z-index: 90;
+  z-index: 1200;
   position: relative;
   height: 90%;
 }
