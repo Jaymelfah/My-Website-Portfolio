@@ -15,17 +15,15 @@ menuIcons.forEach((link) => {
 
 const cardArray = [{
   name: 'Card1',
-  title: 'Multi-Post Stories',
-  description: `A daily section of privately personalized reads; no accounts or signups required.
-                This has been the industry's standard dummy text ever since the 1500s, when an
-                unknown printer took a standard dummy text.`,
-  image: './Images/Gym.svg',
-  technology1: 'css',
-  technology2: 'html',
-  technology3: 'bootstrap',
+  title: 'Moode Art Exhibition',
+  description: 'The Primary purpose of this project is to build a website for an art exhibition for Moode (An online art company).Moode will showcase her art this year. The website shows the program for the exhibition and gives an opportunity for people to register to be part of the program. Featured speakers are also enlisted.',
+  image: './Images/Moode Page.png',
+  technology1: 'CSS',
+  technology2: 'HTML',
+  technology3: 'JavaScript',
   technology4: 'ruby',
   'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
-  'link to source': 'https://github.com/Jaymelfah',
+  'link to source': 'https://github.com/Jaymelfah/Moode-Art-Exhibition.git',
 },
 {
   name: 'Card2',
@@ -90,13 +88,13 @@ const cardArray = [{
 {
   name: 'Project7',
   title: 'Multi-post Stories',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ratione exercitationem laboriosam sequi quo,   voluptates ve ritatis iusto magni beatae, labore voluptatibus odit placeat perspiciatis vero voluptate quas debitis. Omnis provident quisquam illo qui, at eos excepturi nobis exercitationem est ratione molestiae, accusamus veritatis fugit. Iusto odit aspernatur nam quasi sequi ducimus quibusdam. Explicabo sint inventore fugit quis soluta voluptates accusantium',
-  image: 'Images/Snapshoot Portfolio.png',
+  description: 'An art exhibition website built with JavaScript, HTML and CSS. Users can register for the art exhibition on the website. The Primary purpose of this project is to build a website for an art exhibition for Moode (An online art company).Moode will showcase her art this year. The website shows the program for the exhibition and gives an opportunity for people to register to be part of the program. Featured speakers are also enlisted.',
+  image: './Images/Exhibitions.png',
   technology1: 'css',
   technology2: 'html',
   technology3: 'bootstrap',
-  'link to live version': 'https://jaymelfah.github.io/Mobile-Portfolio/',
-  'link to source': 'https://github.com/Jaymelfah',
+  'link to live version': 'https://jaymelfah.github.io/Moode-Art-Exhibition/',
+  'link to source': 'https://github.com/Jaymelfah/Moode-Art-Exhibition.git',
 },
 {
   name: 'Project8',
